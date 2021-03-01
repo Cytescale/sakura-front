@@ -1,0 +1,695 @@
+.app_land_main_cont{
+     padding: 22px;
+     width: 100%;
+     padding-top: 32px;
+    padding-left:10%;
+    padding-right: 6%;
+     padding-bottom: 6%;
+    box-shadow: -6px 0px 10px rgb(0,0,0,0.02);
+     position: relative;
+}
+
+.app_land_welcome_mess_main_cont{
+     width: 100%;
+     height: 300px;
+     border-radius: 8px;
+     background-color: #5352ED;
+     box-shadow: 0px 8px 15px rgb(0, 0,0,0.1);
+     border-radius: 12px;
+     color: #fff;   
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 42px;
+     font-weight: 800;
+     position: relative;
+}
+.app_land_welcome_mess_main_close_butt{
+     position: absolute;
+     top: 0;
+     left: 0;
+     margin: 16px;
+     padding: 0px;
+     outline: none;
+     border-style: none;
+     background-color: rgb(0, 0, 0,0);
+}
+.app_land_welcome_mess_main_close_butt_ico{
+     width: 28px;
+
+     color: #fff;
+}
+.app_land_welcome_mess_main_cont_ico{
+     height: 100%;
+     position: absolute;
+     right: 0;
+     margin-right: 12px;
+}
+
+.app_land_feat_cont{
+     height: 180px;
+     width: 100%;
+     display: inline-flex;
+}
+.app_land_feat_plan_cont{
+     width: 50%;
+     height: 100%;
+     margin-right: 32px;
+     background: linear-gradient(180deg, #63BCFF 0%, #0E98FF 100%);
+     display: flex;
+     align-items: center;
+     padding-left: 32px;
+     border-radius: 11px;
+     position: relative;
+}
+.app_land_feat_dark_cont{
+     width: 50%;
+     height: 100%;
+     background: linear-gradient(180deg, #192C62 0%, #081F30 100%);
+     display: flex;
+     align-items: center;
+     padding-left: 32px;
+     position: relative;
+     overflow: hidden;
+     border-radius: 11px;
+}
+.app_land_feat_close_cont{
+     width: 52px;
+     height: 52px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top:0;
+     right: 0;
+}
+.app_land_feat_close_cont_ico{
+     color: #fff;
+     width: 28px;
+     height: 28px;
+}
+
+.app_land_feat_moon_cont{
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+}
+.app_land_feat_moon_cont_ico{
+     width: 82px;
+     margin-top: 52px;
+     margin-right: -32px;
+     height: 82px;
+     color: #e0e0e0;
+}
+.app_land_feat_dark_cont_tit{
+     
+     color: #fff;
+     font-family: sen;
+     font-size: 42px;
+     font-weight: 700;   
+}
+.app_land_feat_dark_cont_sub_tit{
+     color: #fff;
+     font-family: sen;
+     font-size: 17px;
+}
+
+#app_land_grh_can_intr_cont{
+     width: 100%;
+     display: inline-flex;
+     
+     border-radius: 11px;
+}
+.app_land_grh_can_cont{
+     width: 50%;
+     height: 100%;
+     padding: 12px;
+
+     border-radius: 11px;
+
+}
+.app_land_grh_can_cont_2{
+     width: 100%;
+     height: 100%;
+     margin-right: 32px;
+     
+     overflow: visible;
+     
+     border-radius: 11px;
+}
+
+.app_land_grh_can{
+     width: 100%;
+     height: 250px;
+}
+#app_land_grh_can_main_cont{
+     width: 100%;
+     margin-top: 72px;
+     
+}
+#app_land_grh_can_comp_main_cont{
+     display: inline-flex;
+     float: right;
+     margin-bottom: 32px;
+}
+#app_land_grh_can_sort_main_cont{
+     margin-bottom: 32px;
+     width: 100%;
+     
+}
+.app_land_grh_can_comp_butt_1_ico{
+     width: 30px;
+     height: 30px;
+     padding-right:10px;
+     vertical-align: middle;
+     color: #0E98FF;
+}
+.app_full_left_lnk_class_ico_2{
+     width: 38px;
+     height:  38px;
+     padding-right:10px;
+     vertical-align: middle;
+     color: #000;
+}
+.app_land_grh_can_comp_butt_1_ico_2{
+     width: 30px;
+     height: 30px;
+     padding-left:10px;
+     vertical-align: middle;
+}
+#app_land_grh_can_comp_main_cont_tit{
+     font-family: sen;
+     font-size: 14px;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 6px;
+     margin-right: 6px;
+     color: #929292;
+}
+#app_land_grh_can_comp_butt_1{
+     box-shadow: 0px 3px 5px rgb(0,0,0,0.04);
+     background-color:#fff;
+     outline: none;
+     border-style: none;
+     padding:4px;
+     font-size: 16px;
+     font-weight: 700;
+     color: var(--app-card-data);
+     font-family: quicksand;
+     border-radius: 11px;
+     padding-left: 32px;
+     padding-right: 32px;
+}
+
+.app_land_main_bg_cont{
+     position: fixed;
+     width: 30%;
+     
+     height: 100%;
+     background-color: #0E98FF;
+     transform: rotate(-40deg);
+     right: -8%;
+     box-shadow: -8px 0px 10px  rgb(0, 0, 00,0.1);
+     z-index: -10;
+     top:-40%;
+     bottom: 0;
+}
+.app_land_main_bg_cont_2{
+     position: fixed;
+     width: 30%;
+     height: 90%;
+     background-color: #003B67;
+     transform: rotate(45deg);
+     right: -20%;
+     box-shadow: -8px 0px 10px  rgb(0, 0, 00,0.1);
+     z-index: -10;
+     bottom:-40%;
+
+}
+
+#app_land_anal_main_main_cont{
+     margin-top: 32px;
+}
+#app_land_tab_main_main_cont{
+     width: 100%;
+     
+     display: inline-flex;
+     border-radius: 11px;
+     background-color: #fff;
+     box-shadow: var(--app_primary-box-shadow);
+}
+#app_land_tab_cont{
+     width: 100%;
+     height: fit-content;
+
+     border-radius: 8px;
+     z-index: 20;
+     
+}
+
+#app_land_over_anal_butt{
+     width: 100%;
+     height: 62px; 
+     background-color: rgb(0, 0, 0,0);
+     border-style: none;
+     outline: none;
+
+}
+#car_hrd{
+     padding: 0px;     
+     background-color: #fff;
+     border-style: none;
+}
+
+
+#app_land_main_bdy_butt_cont{
+     position: absolute;
+     top:0;
+     right: 0;
+     bottom: 0;
+     display: flex;
+     align-items: center;
+     padding-right: 22px;
+}
+#app_land_main_bdy_butt{
+     width: auto;
+     height: 100%;  
+     border: 3px solid #8FDE82;
+     background-color: #fff;
+     color: #8FDE82;
+     margin-left: 20px;
+     font-size: 19px;
+     font-weight: 700;
+     padding-left: 32px;
+     padding-right: 32px;
+     font-family: sen;
+}
+#app_land_main_bdy_butt:hover{
+     background-color: #66D655;
+}
+
+.app_land_sec_tit_cont{
+     width: 100%;
+     font-size: 16px;
+     font-family: quicksand;
+     color: #000;
+     font-weight: 700;
+     padding-top:  22px;
+     margin-top: 22px;
+     padding-bottom:22px;
+     position: relative;
+}
+#dropdown-basic-button{
+     color: #0E98FF;
+     font-size: 17px;
+     font-weight: 600;
+     margin-left: 6px;
+     margin-top: 5px;
+     background-color:rgb(0, 0, 0,0);
+}
+.app_land_sec_tit{
+width: fit-content;
+}
+.app_land_tab_butt_cont{
+     position: absolute;
+     display: inline-flex;
+     right: 0;
+     top: 0;
+     bottom: 0;
+}
+
+#app_land_tab_srch_cont{
+     width: 100%;
+     height: 62px;
+     z-index: 0;
+     
+     border-radius: 11px;
+     position: relative;
+     font-size: 19px;
+}
+#app_land_tab_srch{
+     width: 40%;
+     background-color: rgb(0, 0, 00,0);
+     height: 62px;
+     font-size: 15px;
+     outline: none;
+     border-radius: 8px;
+     border-style: none;
+     padding-left: 12px;
+}
+#app_land_tab_srch::placeholder{
+ 
+}
+#app_land_tab_right_cont{
+     position: absolute;
+     top:0;
+     right: 0;
+     height: 100%;
+      
+}
+#app_land_tab_rel_butt{
+     background-color: rgb(0, 0, 0,0);
+     border-style: none;
+     height: 100%;
+     outline: none;
+     padding-right: 20px;
+     padding-left:20px;
+}
+#app_land_tab_rel_butt:hover{
+     background-color: #f5f5f5;
+}
+#app_land_tab_rel_butt_ico{
+     width: 22px;
+     height: 22px;
+     vertical-align: middle;
+}
+
+#app_land_tab_table_main_cont{
+     border-radius: 8px;
+     background: var( --app-card-bg-color);
+}
+.app_land_tab_left_cont_srch_ico{
+     width: 22px;
+     height: 22px;
+     vertical-align: middle;
+     margin-left: 18px;
+
+}
+#app_land_tab_table{
+     width: 100%;
+     margin-bottom: 32px;
+     z-index: -10;
+     
+}
+#app_land_tab_table_head_row{
+     z-index: -10;
+     font-size: 14px;
+     border-top: 1px solid #f1f1f1;
+     border-bottom: 1px solid #f1f1f1;
+}
+.app_land_tab_table_head_row_tit_name_sort_cont{
+     background-color: rgb(0, 0, 0,0);
+     outline: none;
+     border-style: none;
+     padding: 4px;
+     padding-left: 5px;
+     padding-right: 5px;
+     
+     border-radius: 4px;
+}
+
+@keyframes app_land_tab_table_head_row_tit_name_back_anim {
+     from {
+          
+          }
+     to {
+          background-color: rgb(180,223,255,0.2);
+          color: #0E98FF;
+     }
+   }
+   @keyframes app_land_tab_table_head_row_tit_name_ico_anim {
+     from {
+          
+          }
+     to {
+          opacity: 1;
+     }
+}
+   
+.app_land_tab_table_head_row_tit_name_sort_cont:hover{
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: app_land_tab_table_head_row_tit_name_back_anim;
+     animation-duration: 0.2s;
+}
+.app_land_tab_table_head_row_tit_name_sort_cont:hover svg{
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: app_land_tab_table_head_row_tit_name_ico_anim;
+     animation-duration: 0.5s;
+}
+.app_land_tab_table_head_row_tit{
+     padding: 20px;
+
+     color: #bdbdbd;
+     
+}
+.app_land_tab_table_head_row_tit_sort_ico{
+     width: 22px;
+     height: 22px;
+     color: #0E98FF;
+     opacity: 0;
+}
+.app_land_tab_table_head_row_tit_swt{
+     width: 82px;
+ 
+     
+}
+
+@keyframes dash_tab_anim {
+     from {
+          
+          }
+     to {
+          background-color: #f9f9f9;
+     }
+   }
+#app_land_tab_table_bdy_cont{
+    position: relative; 
+}
+.app_land_tab_table_head_row_dat_row_no_res{
+     
+}
+.app_land_tab_table_head_row_dat_row{
+     width: 100%;
+     border-bottom: 1px solid #f6f6f6;
+     z-index: -10;
+}
+.app_land_tab_table_head_row_dat_row_a_cont{
+     width: 100%;
+     font-size: 14px;
+
+}
+.app_land_tab_table_head_row_dat_row_a_cont_ico{
+     width: 22px;
+     height: 22px;
+     margin-right: 12px;
+     color: #FF0000;
+}
+
+
+.app_land_tab_table_head_row_dat_row_a_cont:hover{
+     text-decoration: none;
+
+}
+.app_land_tab_table_head_row_dat_lnk_main_cont{
+     color: #0E98FF;
+     text-decoration: none;
+     font-size: 15px;
+}
+.app_land_tab_table_head_row_dat_lnk_main_cont:hover{
+     text-decoration: none;
+
+}
+.app_land_tab_table_head_row_del_lnk{
+     color:#EE6A5E;
+     padding: 10;
+     border-radius: 300px;
+}
+.app_land_tab_table_head_row_dat_row:hover{
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: dash_tab_anim;
+     animation-duration: 0.3s;
+}   
+.app_land_tab_table_head_row_dat{
+     padding: 20px;
+     color:var(--app-card-data);
+
+}
+.app_land_tab_table_head_row_dat_amt_cont{
+     padding: 20px;
+     color:var(--app-card-data);   
+     
+}
+.app_land_tab_table_head_row_dat_name{
+     padding: 20px;
+     color:var(--app-card-data);
+     font-weight: 500;
+}
+
+#app_land_dash_data_main_cont{
+     width: 100%;
+     height: fit-content;
+     display:inline-flex;
+     z-index: 0;
+     background-color: rgb(0, 0, 0,0);
+}
+#app_dash_data_dwn_lnk_cont{
+     margin-top: 12px;
+     width: 100%;
+     
+}
+
+#app_dash_data_dwn_lnk{
+     font-family: sen;
+     color:#0E98FF;
+     font-weight: 700;
+}
+
+.app_land_dash_data_cont
+{
+     font-family: sen;
+     margin-right: 16px;
+     padding: 20px;
+     min-width: 200px;
+     width: fit-content;
+     background:var(--app-card-bg-color);   
+     box-shadow: var(--app_primary-box-shadow);
+     border-radius: 11px;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.app_land_dash_data_tit_cont{
+     display: inline-flex;
+     vertical-align: middle;
+     align-items: center;
+}
+#app_lnd_dat_indi_1{
+     width: 12px;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #66D655;
+     margin-right: 7px;
+}
+#app_lnd_dat_indi_2{
+     width: 12px;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #F6BC4F;
+     margin-right: 7px;
+}
+#app_lnd_dat_indi_3{
+     width: 12px;
+     height: 12px;
+     border-radius: 100px;
+     background-color:#8FDE82;
+     margin-right: 7px;
+}
+#app_lnd_dat_indi_4{
+     width: 12px;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #0E98FF;
+     margin-right: 12px;
+}
+.app_land_dash_data_data{
+     color:#0E98FF;
+     font-weight: 700;
+     font-size: 30px;
+}
+#app_lnd_dat_1{
+     
+}
+.app_land_dash_data_tit_ques{
+     width: 18px;
+     height: 18px;
+     margin-left: 10px;
+     color: #929292;
+     fill:#424242;
+}
+.app_land_dash_data_tit{
+color: #727272;
+font-family: sen;
+font-size: 15px;
+vertical-align: middle;
+}
+.app_land_dash_data_comp{
+     width: fit-content;
+     padding:4px;
+     font-size: 12px;
+     margin-top: 6px;
+     font-family: sen;
+     font-weight: 700;
+     color: #EE6A5E;
+     border-radius: 8px;
+     background-color: rgba(238,106,94,0.2);
+}
+.app_land_dash_data_comp_suc{
+     width: fit-content;
+     padding:4px;
+     font-size: 12px;
+     margin-top: 6px;
+     font-family: sen;
+     font-weight: 700;
+     color: #A9EB9F;
+     border-radius: 8px;
+     background-color: rgba(169,235,159, 0.2);
+}
+.app_creat_lnk_modal_main_cont{
+     padding:42px;
+     padding-top: 12px;
+}
+.app_creat_lnk_modal_main_cont_tit{
+     font-family: quicksand;
+     font-size: 23px;
+     font-weight: 800;
+     padding-bottom: 12px;
+     border-bottom: 1px solid var(--main-bord-color);
+     color: #626262;
+}
+.app_creat_lnk_modal_main_crt_butt{
+     height: 52px;
+     width: 100%;
+     font-size:18px;
+     background-color: #0E98FF;    
+     margin-top: 22px;
+}
+.app_creat_lnk_modal_main_crt_butt_load{
+     background-color: #fff;
+     margin-right: 12px;
+}
+
+.app_land_tab_table_head_row_dat_lnk_copy_butt{
+     background-color: rgb(0, 0, 0,0);
+     border-style: none;
+     outline:none;
+     margin-left: 12px;
+     color: #0E98FF;
+     padding-top: 5px;
+     padding-left: 0;
+     padding-right: 0;
+     padding-bottom: 5px;
+}
+.app_land_tab_table_head_row_dat_lnk_copy_ico{
+     width: 22px;
+     height: 22px;
+     
+}
+.app_land_tab_table_head_row_dat_del_ico{
+     width: 18px;
+     height: 18px;
+     
+}
+
+.app_land_tab_table_head_row_dat_link_ico{
+     width: 18px;
+     height: 18px;
+     margin-left: 7px;
+}
+.app_del_modal_moto_txt_cont{
+     margin-top: 12px;
+     color: #EE6A5E;
+
+}
+.app_del_modal_butt_cont{
+     
+     margin-top: 22px;
+}
+.app_del_modal_butt{
+     
+     width: 50%;
+}

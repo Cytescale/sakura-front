@@ -1,0 +1,354 @@
+#app_setting_main_bdy
+{ padding: 72px;
+    padding-top: 32px;
+   padding-left: 10%;
+   padding-right: 6%;
+    padding-bottom: 6%;
+    position: relative;
+}
+#app_setting_nav_cont_col{
+    
+    padding: 0;
+    padding-top: 32px;
+    margin: 0;
+    height: 100vh;
+}
+
+/*
+ background-color: #fff;
+box-shadow: var(--app_primary-box-shadow);
+
+*/
+#app_setting_nav_cont_row{
+
+
+}
+#app_setting_nav_cont{
+    
+    padding: 0;
+    margin: 0;
+
+}
+#app_setting_nav_cont_item{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#app_setting_nav_cont_item_lnk{
+    
+}
+#app_sett_main_main_bdy{
+    text-align: center;
+}
+#app_setting_main_bdy_tit_main_cont{
+    background-color:#fff;
+    height: auto;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;    
+    position: relative;
+    box-shadow: 0px 8px 10px rgb(0, 0,0,0.03);
+    padding-left: 32px;
+    z-index: 12;   
+    margin-bottom:32px;
+    border-radius: 8px;
+}
+
+.nav-item  {
+    font-size: 17px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    border-style: none;
+}
+#app_setting_main_bdy_tit_main_tit{
+    
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+
+}
+#app_setting_main_bdy_tit_main_sub_tit{
+    font-family: quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    color:#626262;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--main-bord-color);
+}
+
+
+.app_setting_tab_main_cont{
+background-color: #fff;
+}
+
+.app_land_tab_table{
+     
+}
+
+
+.app_setting_tab_main_tab_1_cont{
+padding: 0px;
+border-top-style: none;
+display: inline-flex;
+width: 70%;
+text-align: left;
+background-color: #fff;
+box-shadow: var(--app_primary-box-shadow);
+border-radius: 8px; 
+padding: 32px;
+margin-top: 32px;
+border-top-left-radius: 0px;
+
+}
+
+.app_setting_tab_main_tab_1_cont_left{
+    padding-left: 32px;
+    display: inline;
+    width: 100%;
+    
+}
+.app_setting_tab_main_tab_1_cont_rght{
+    background-color: #14348E;
+    display: inline;
+    width: 50%;
+    padding:5px;
+    border-radius: 11px;
+}
+
+
+.app_setting_tab_main_tab_1_cont_tit{
+    font-family: inter;
+    font-size:19px;
+    font-weight: 400;
+
+    padding-bottom:10px;
+    border-bottom:1px solid #e0e0e0;
+    color:#222222;
+}
+
+.app_setting_tab_main_tab_1_cont_opt_class{
+
+    margin-top: 20px;
+}
+
+#gog_sgn_meth_cont{
+width: 100%;
+height: auto;
+background-color: #f8f8f8;
+border-radius: 8px;
+margin-top: 20px;
+padding:10px;
+color: #424242;
+font-family: quicksand;
+font-weight: 700;
+font-size: 19px;
+text-align: center;
+}
+#gog_sgn_meth_cont_ico{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.app_setting_tab_main_tab_1_cont_opt_tit_clsas{
+    font-size: 14px;
+    color:#424242;
+
+    font-weight: 600;
+
+}
+.app_setting_tab_main_tab_1_cont_opt_data_txt_cont{
+
+    margin-top:10px;
+
+}
+.app_setting_tab_main_tab_1_cont_opt_data_txt{
+    height: 42px;
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#e0e0e0;
+    padding-left: 10px;
+    min-width: 350px;
+}
+@keyframes login_txt_anim {
+     from {
+          
+          }
+     to {
+          color: #1c9cfc;
+          border: 1px solid #1c9cfc;
+          box-shadow: 0px 0px 3px #1c9cfc;
+     }
+   }
+
+.app_setting_tab_main_tab_1_cont_opt_data_txt:focus{
+     outline:none;
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: login_txt_anim;
+     animation-duration: 0.2s;
+}
+.app_sett_tab_cont_pro{
+    margin-bottom:20px;
+    width: 90%;
+}
+
+.app_sett_tab_sub_butt{
+    width: 100%;
+    height: 52px;
+    border-radius: 100px;
+    font-size: 16px;
+    margin-top:20px;
+}
+#app_sett_tab_sub_butt_spi{
+
+}
+.app_sett_tab_pass_chang_butt{
+    width: 100%;
+    
+}
+
+#app_sett_email_chck_inp_txt{
+    font-family: inter;
+    font-size:14px;
+    color:#525252;
+}
+#app_sett_email_chck_inp{
+    float: right;
+    width: 22px;
+    height: 22px;
+}
+.app_setting_tab_main_tab_1_cont_rght_data_cont{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.app_setting_tab_main_tab_1_cont_rght_data_ico{
+    width: 82px;
+    height: 82px;
+    fill:#fefefe; 
+      stroke: #fefefe;
+     color:#fefefe;   
+     
+}
+
+#app_setting_tab_main_tab_1_cont_rght_data_cont_txt{
+    color:#fefefe;
+   
+}
+
+.pass_chnage_modal_bdy_main_cont{
+
+}
+
+#pass_chnage_modal_bdy_cont{
+    padding:32px;
+}
+#pass_chnage_modal_bdy_cont_tit_cont{
+font-size:20px;
+color:#525252;
+font-family: inter;
+padding-bottom:10px;
+border-bottom:1px solid #e0e0e0;
+}
+.app_setting_main_bdy_tit_main_sub_opt_cont{
+margin-top: 15px;
+border-style: solid;
+border-width: 1px;
+border-color: #e0e0e0;
+border-radius: 5px;
+padding-bottom:10px;
+}
+.app_setting_main_bdy_tit_main_sub_opt_cont_tit{
+font-family: inter;
+font-size:13px;
+padding-top:10px;
+padding-left:20px;
+color:#2F80ED;
+font-weight: 600    ;
+}
+.app_setting_main_bdy_tit_main_sub_opt_cont_data{
+width: 100%;
+border-style: none;
+padding-left: 20px;
+font-size: 14px;
+}
+
+.app_setting_main_bdy_tit_main_sub_opt_cont_data:focus{
+    border-style: none;
+    outline: none;
+}
+
+.app_setting_main_bdy_tit_main_sub_opt_cont_data::placeholder{
+font-family: inter;
+}
+
+.app_setting_main_bdy_tit_main_sub_butt_cont{
+    width: 100%;
+    margin-top:32px;
+}
+.app_setting_main_bdy_tit_main_forg_lnk{
+    padding-left:10px;
+}
+.app_setting_main_bdy_tit_main_forg_lnk:hover{
+    text-decoration: none;
+}
+.app_setting_main_bdy_tit_main_forg_lnk_cont{
+    margin-top:10px;
+}
+.dec_acc_modal_alrt_cont{
+    margin:0;
+    margin-top:10px;
+}
+
+.app_setting_tab_main_cont_class{
+    background-color: #fff;
+    padding: 22px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 12px;
+    box-shadow: var(--app_primary-box-shadow);
+}
+
+
+
+#app_setting_tab_main_cont-tab-profile{
+     width: fit-content;
+     padding-right: 32px;
+     padding-left: 32px;
+     border-radius: 100px;
+     border:1px solid #e0e0e0;
+     margin-right: 12px;
+    
+}
+#app_setting_tab_main_cont-tab-sec{
+     width: fit-content;
+    margin-right: 12px;
+     padding-right: 32px;
+     padding-left: 32px;
+     border:1px solid #e0e0e0;
+     border-radius: 100px;
+
+}
+
+#app_setting_tab_main_cont-tab-api{
+    width: fit-content;
+   margin-right: 12px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border:1px solid #e0e0e0;
+    border-radius: 100px;
+
+}

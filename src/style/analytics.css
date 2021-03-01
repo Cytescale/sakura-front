@@ -1,0 +1,431 @@
+.ana_main_cont_bdy{
+     padding: 22px;
+     padding-top: 32px;
+     padding-left:10%;
+    padding-right: 6%;
+     padding-bottom: 6%;
+    box-shadow: -6px 0px 10px rgb(0,0,0,0.02);
+     position: relative;
+     
+}
+
+
+
+#ana_tab_main_cont{
+     margin-top: 32px;
+}
+
+.app_ana_lnk_class_ico{
+     width: 38px;
+     height:  38px;
+     padding-right:10px;
+     vertical-align: middle;
+     color: #0E98FF;
+}
+
+.app_ana_lnk_selec_cont_ico{
+     width: 23px;
+     height:  23px;
+     
+     vertical-align: middle;
+     
+     
+}
+
+.app_ana_back_butt{
+     padding: 0px;
+     background: rgb(0,0,0,0);
+     width: 32px;
+     margin-right: 12px;
+     height: 32px;
+     border-style: none;
+     color: #0E98FF;    
+     
+}
+
+.app_ana_back_butt:hover{
+     cursor: pointer;
+     color: #000;
+}
+
+
+.nav-item nav-link{
+     background-color: red;     
+}
+.app_ana_tab_cont{
+
+}
+.app_ana_tabs_main_cont_class{
+    background-color: #fff;
+    padding: 22px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 12px;
+    
+    box-shadow: var(--app_primary-box-shadow);
+}
+
+
+
+#app_ana_tabs_main_cont-tab-Analytics{
+     width: fit-content;
+     padding-right: 32px;
+     padding-left: 32px;
+     border-radius: 100px;
+     border:1px solid #e0e0e0;
+     font-family: 'Poppins';
+     margin-right: 12px;
+}
+#app_ana_tabs_main_cont-tab-Details{
+     width: fit-content;
+     font-family: 'Poppins';    
+     padding-right: 32px;
+     padding-left: 32px;
+     border:1px solid #e0e0e0;
+     border-radius: 100px;
+
+}
+
+.app_ana_lnk_selec_cont{
+     
+     border-radius: 11px;
+     font-size: 17px;
+     margin-bottom: 32px;
+     
+}
+.app_ana_sec_tit_cont{
+     width: fit-content;
+     font-size: 17px;
+     width: 100%;
+     color: #718298;
+     font-weight: 600;
+     padding-top:  22px;
+     padding-bottom:0px;
+     margin-top: 22px;
+     margin-bottom: 12px;
+     position: relative;
+
+}
+.app_ana_sec_tit{
+width: fit-content;
+}
+
+.app_ana_box_main_cont{
+     margin-top: 22px;
+     display: inline-flex;
+}
+
+.app_ana_box_cont{
+     width: fit-content;
+     padding:17px;
+     padding-left: 32px;
+     padding-right: 32px;
+     background-color: #fff;
+     box-shadow: var(--app_primary-box-shadow);
+     border-radius:11px;
+     margin-right: 22px;
+}
+.app_ana_box_cont_tit{
+     font-size: 17px;
+     font-weight: 700;
+     color:#929292;
+}
+.app_ana_box_cont_dat{
+     font-size: 32px;
+     font-weight: 700;
+     color:#000;
+}
+
+.app_ana_lnk_date_cont{
+     width: 100%;
+     display: inline-flex;
+     margin-top: 32px;
+     position: relative;
+     padding-top: 22px;
+     padding-bottom: 22px;    
+}
+.app_ana_lnk_date_cont_tit{
+     font-size: 20px;
+     font-weight: 700;
+     margin-right: 22px;
+     color:#bdbdbd;
+}
+.app_ana_lnk_date_butt_cont{
+     
+}
+
+.app_ana_lnk_date_butt{
+     height: 38px;
+     border-radius: 5px;
+     color:#626262;
+     font-weight: 700;
+     padding-left: 22px;
+     padding-right: 22px;
+     
+     background-color: #f1f1f1;
+     border: 1px solid #bdbdbd;
+}
+.app_ana_lnk_date_cont_down_ico{
+     width: 18px;
+     height: 18px;
+}
+
+.app_ana_lnk_date_rgt_cont{
+     display: inline-flex;
+     position: absolute;
+     right: 0;
+     
+}
+
+.app_ana_lnk_date_rgt_butt{
+     color: #000;
+     background-color: rgb(0,0,0,0.00);
+     border-style: none;
+     padding:7px;
+     padding-right: 22px;
+     border-radius: 5px;
+     padding-left: 22px;
+     
+     border-radius: 0px;
+}
+#app_ana_lnk_date_rgt_butt_down{
+     border-right: 1px solid #bdbdbd;
+}
+
+.app_ana_lnk_date_rgt_butt_ico{
+     width: 19px;
+     height: 19px;
+     margin-right: 6px;
+     
+}
+
+
+
+
+#app_land_grh_viw_intr_cont{
+     width: 100%;
+     
+}
+.app_land_grh_can_cont{
+     width: 50%;
+     height: 100%;
+     padding: 12px;
+
+     border-radius: 11px;
+
+}
+.app_land_grh_view_cont_2{
+     margin-top: 52px;
+     width: 100%;
+     height: 100%;
+     padding:10px;
+     background-color: #fff;
+     box-shadow: var(--app_primary-box-shadow); 
+     overflow: visible;
+     border-radius: 11px;
+}
+
+.app_land_grh_viw{
+     width: 100%;
+     height: 250px;
+}
+.app_land_grh_view_cont_2_tit{
+     font-size: 18px;
+     padding-left: 22px;
+     padding-top: 12px;
+     font-family: quicksand;
+     font-weight: 700;
+     color:#525252;
+
+}
+
+.app_land_grh_visit{
+     width: 100%;
+     height: 250px;
+}
+.app_land_grh_thrd_main_cont{
+     display: inline-flex;
+     width: 100%;
+     height: 100%;
+     padding:10px;
+     padding-left: 0px;
+     padding-right: 0px;
+     overflow: visible;
+}
+
+.app_land_grh_vist_city_con{
+     margin-top: 12px;
+     width: 50%;
+     
+     height: 100%;
+     padding:10px;
+     margin-right: 32px;
+     background-color: #fff;
+     min-height: 300px;
+     box-shadow: var(--app_primary-box-shadow); 
+     overflow: visible;
+     border-radius: 11px;
+}
+.app_land_grh_vist_city_count{
+     margin-top: 12px;
+     width: 50%;
+     height: 100%;
+     padding:10px;
+     background-color: #fff;
+     box-shadow: var(--app_primary-box-shadow); 
+     overflow: visible;
+     border-radius: 11px;
+}
+
+.app_land_grh_vist_os_con{
+     margin-top: 12px;
+     width: 50%;
+     height: 100%;
+     padding:10px;
+     background-color: #fff;
+     box-shadow: var(--app_primary-box-shadow); 
+     overflow: visible;
+     border-radius: 11px;     
+}
+
+.app_land_grh_visit_city{
+     width: 100%;
+     height: 250px;
+}
+.app_land_grh_view_cont_2_leg_cont{
+display: inline-flex;
+padding-left:22px;
+align-items: center;
+vertical-align: middle;
+margin-top: 12px;
+}
+.app_land_grh_view_cont_2_leg_cont_idi{
+     width: 12px;
+     vertical-align: middle;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #F6BC4F;
+     margin-right:8px;
+     font-family: sen;
+    
+}
+
+.app_land_grh_view_cont_2_leg_cont_idi_2{
+     width: 12px;
+     vertical-align: middle;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #EE6A5E;
+     margin-right:8px;
+     font-family: sen;
+    
+}
+.app_land_grh_view_cont_2_leg_cont_idi_3{
+     width: 12px;
+     vertical-align: middle;
+     height: 12px;
+     border-radius: 100px;
+     background-color: #D6A1FF;
+     margin-right:8px;
+     font-family: sen;
+
+}
+.app_ana_tab_table{
+     width: 100%;
+     margin-top: 32px;
+     z-index: -10;
+}
+
+.app_ana_det_main_class{
+margin-top: 32px;
+}
+.app_ana_bas_det_main_class{
+   width: 100%;
+   border-radius: 8px;
+   height: auto;
+   display: table;
+   background-color: #fff;  
+   margin-bottom: 22px;
+   box-shadow: var(--app_primary-box-shadow); 
+   padding: 22px;
+}
+
+.app_ana_bas_det_main_class_row{
+     display: table-row;
+     margin-bottom: 12px;
+}
+
+
+
+.app_ana_bas_det_main_class_dat_cont{
+
+width: 40%;
+display: table-cell;
+padding: 16px;
+margin-bottom: 12px;
+}
+.app_ana_bas_det_main_class_dat_cont_tit{
+font-size: 14px;
+padding-left: 5px;
+font-weight: 600;
+color: #bdbdbd;
+}
+.app_ana_bas_det_main_class_dat_cont_inp{
+     width: 100%;
+     margin-top: 12px;
+     height: 42px;
+     font-size: 14px;
+     padding-left: 12px;
+     border-radius: 5px;
+     border:1px solid #e0e0e0;
+}
+.app_ana_gen_lnk_main_cont{
+     padding: 16px;
+     width: 100%;
+     position: relative;
+     background-color: #fff;
+     border-radius: 12px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 22px;
+     box-shadow: var(--app_primary-box-shadow); 
+}
+.app_ana_gen_lnk_main_cont_tit{
+     font-size: 15px;
+     font-weight: 600;
+     color: #bdbdbd;
+     
+}
+.app_ana_gen_lnk_main_cont_link_spcl_id_fld{
+     border:1px solid #f1f1f1;
+     height: 36px;
+     padding-left: 12px;
+     border-radius: 12px;
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+     margin-left: 12px;    
+     background-color: #f1f1f1;
+}
+.app_ana_gen_lnk_main_cont_full{
+     display: inline-flex;
+     align-items: center;
+     height: fit-content;
+     padding-left: 22px;
+     border-radius: 12px;
+     border:1px solid #f1f1f1;
+}
+.app_ana_gen_lnk_main_cont_full_ico{
+     width: 20px;
+     margin-right: 10px;
+     height: 20px;
+     color: #bdbdbd;
+}
+.app_ana_bas_det_main_class_tit{
+ padding: 22px;
+ font-size: 18px;
+ font-weight: 600;
+ color: #0E98FF;
+}

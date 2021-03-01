@@ -1,0 +1,80 @@
+
+.app_noti_main_cont{
+     width: 500px;
+     height: auto;
+     z-index: 9999;
+     position: fixed;
+     bottom: 0;
+     padding:32px;
+     right: 0;
+     
+     margin-top: 72px;
+}
+
+@keyframes noti_cont_anim {
+     0% {
+          transform: translateY(100%);
+
+     }
+     100% {
+          transform: translateY(0%);
+
+     }
+   }
+   
+
+
+.app_noti_cont{
+     display: inline-flex;
+     border:2px solid #66D655;
+     background-color: #66D655;
+     width: 100%;
+     z-index: 9999;
+     padding:15px;
+     padding-top:18px;
+     padding-bottom: 18px;
+     font-size: 20px;
+     border-radius: 8px;
+     color: #fff;
+     margin-bottom: 15px;
+     font-family: sen;
+     vertical-align: middle;
+     z-index: 9999;
+     box-shadow: 0px 4px 6px rgb(0,0,0,0.09);
+     position: relative;    
+
+     animation-fill-mode: forwards;
+     animation-name: noti_cont_anim;
+     animation-duration: 0.5s;
+}
+#app_noti_err_cont{
+     color: #EE6A5E;
+     border:2px solid #EE6A5E;
+}
+
+.app_noti_main_cont_ico{
+     
+     width: 32px;
+     height: 32px;
+     margin-right: 10px;
+     vertical-align: middle;
+}
+#app_noti_err_cont_ico{
+     color:#EE6A5E;
+}
+.app_noti_butt_cont{
+     position: absolute;
+     right: 0;
+     margin-right: 10px;
+     
+}
+.app_noti_butt{
+     outline:none;
+     border-style: none;
+     background-color: rgb(0,0,0,0);
+}
+.app_noti_butt_ico{
+     width: 32px;
+     height: 32px;
+     color: #fff;
+}
