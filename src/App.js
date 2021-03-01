@@ -52,6 +52,7 @@ var NotiPool = [];
     --app_primary-box-shadow:0px 6px 10px rgb(0, 0, 0,0.09); 
   }
 `;
+//
 const GlobalStylesLight = createGlobalStyle`
   body {
     --app-primary-color:#F3F5F9;
@@ -71,7 +72,7 @@ const GlobalStylesLight = createGlobalStyle`
     --app-sec-tit:#525252;
     --app-card-tit:#626262;
     --app-card-data:#000;
-    --app_primary-box-shadow:0px 6px 15px rgb(0, 0, 0,0.03);
+    --app_primary-box-shadow:0px 8px 15px rgb(0, 0, 0,0.05);
    
   }
 `;
