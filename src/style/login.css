@@ -1,0 +1,453 @@
+
+
+#lb_main_stack{
+    
+}
+
+  .app_logo_link{
+    color: #fefefe;
+    font-family: quicksand;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#model_can_butt{
+    width: 100%;
+}
+
+#model_bdy_cont{
+    padding: 10px;
+}
+
+#model_can_butt_cont{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+#model_can_butt_cont{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.app_logo_link:hover{
+    color: #fefefe;
+    text-decoration: none;
+}
+#login_main_bdy_main_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#login_main_cont{
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fff;
+     padding-top: 72px;
+     border-bottom: 1px solid #e0e0e0;
+}
+
+#login_main_body_cont
+{
+    width: fit-content;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.login_frm_alt_cont{
+margin-top: 20px;
+}
+.login_frm_cont
+{
+min-width:500px;
+background-color: #FEFEFE;
+padding-top: 4%;
+border-style: solid;
+border-radius: 8px;
+border-color: #fefefe;
+border-width: 1px;
+margin-top: 0px;
+
+}
+
+#login_frm_cont_bck_butt{
+width: fit-content;
+font-size: 20px;
+background-color: rgb(0,0,0,0);
+border-style: none;
+color:#0E98FF;
+margin-bottom: 20px;
+
+}
+.login_frm_cont_bck_butt_ico{
+width: 22px;
+height: 22px;
+vertical-align: middle;
+}
+
+#login_crt_acc_butt{
+    width:100%;
+    height: 42px;
+
+}
+
+#l_f_c_f_l_a{
+    font-size: 13px;
+    color:#323232;
+    margin-top: 22px;
+}
+
+.login_sin_frm_cont
+{
+background-color: #FEFEFE;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+margin-top: 10px;
+border-style: solid;
+border-radius: 5px;
+border-color: #E0E0E0;
+border-width: 1px;
+
+}
+#l_f_c_b
+{
+     cursor: pointer;
+    width: 100%;
+    height:42px;
+    font-family: quicksand;
+    background-image: linear-gradient(#FFF090, #FFF050);
+    color: #000000;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFF040;
+    border-radius: 8px;
+    margin-top: 22px;
+    
+}
+
+
+#login_head_main_body_cont
+{ 
+    font-size: 27px;    
+    vertical-align: middle;
+    width: 100%;
+    background-color:#001F49 ;
+    vertical-align: center;
+    padding: 15px;
+    font-family: pacifico;
+    font-weight: normal;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e0e0e0;
+    
+}
+
+#login_sub_head_main_body_cont{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    color: #000000;
+    background-color: #FEFEFE;
+    padding: 10px;
+    font-weight: 500;    
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #E0E0E0;
+    border-width: 1px;
+    box-shadow: 2px 6px 6px #E5E5E5;
+}
+#login_frm_cont_tit{
+    font-family: sen;
+    font-size: 27px;
+    margin-top: 20px;
+    font-weight: bolder;    
+    margin-bottom: 20px;
+    color: #000000;
+}
+    
+
+#login_foot_main_body_cont
+{
+    height: 100px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212121;
+    color: #000000;
+    text-align: left;
+    font-size: 13px;
+    
+}
+#login_alert_cont
+{
+    margin-top: 10px;
+    border-radius: 8px;
+}   
+#login_alert_cont_close_butt
+{
+    margin-top: -3px;
+}
+.nav-link
+{
+    padding-left: 5px;
+}
+
+#l_f_c_r{
+    color: #323232;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#l_f_c_r_c{
+    margin-top: 10px;
+}
+
+#l_f_c_r_i{
+    float: right;
+}
+
+.l_f_c_e
+{
+    font-weight: 500;
+    margin-top:5px;
+    font-size: 14px;
+    color: #323232;
+    margin-bottom: 5px;
+}
+#l_f_c_u_f{
+     margin-top: 12px;
+}
+#login_unm_txt{
+    color: #000;
+    height: 38px;
+    width: 97%;
+    border-radius: 7px;
+    border: 1px solid #e0e0e0;
+    padding-left:12px;
+}
+@keyframes login_txt_anim {
+     from {
+          
+          }
+     to {
+          color: #1c9cfc;
+          border: 1px solid #1c9cfc;
+          box-shadow: 0px 0px 3px #1c9cfc;
+     }
+   }
+
+#l_f_c_u_c {
+     font-weight: 700;
+     color:#525252;
+}
+#l_f_c_p_c{
+     font-weight: 700;
+     color:#525252;    
+}
+#login_unm_txt:focus{
+     outline:none;
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: login_txt_anim;
+     animation-duration: 0.2s;
+}
+
+#l_f_c_p_f{
+     margin-top: 12px;
+}
+#l_f_c_p_c{
+     margin-top: 22px;
+}
+#login_pass_txt{
+     color: #000;
+     height: 38px;
+     width: 97%;    
+     padding-left:12px;
+     border-radius: 7px;
+     border: 1px solid #e0e0e0;
+}
+#login_pass_txt:focus{
+     outline:none;
+     animation-timing-function: ease-out;
+     animation-fill-mode: forwards;
+     animation-name: login_txt_anim;
+     animation-duration: 0.2s;
+}
+
+#l_f_c_f_c
+{
+    margin-top: 22px;
+
+}
+#l_f_c_f_l{
+    font-size: 15px;
+
+    text-decoration: none;
+}
+#l_s_t_c
+{
+    font-weight: bold;
+}
+#l_s_f_b
+{
+    float: right;
+    margin-top: -3px;
+}
+
+#l_s_ss_b
+{
+    background-color: #FEFEFE;
+    color: #4885ed;
+    font-weight: bold;
+    border-color: #FEFEFE;
+    float: right;
+    margin-top: -3px;
+}
+.login_gog_butt_cont_butt_ico{
+    width:22px;
+    height: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color:#fff;
+    fill: #fff;
+    
+}
+
+#login_gog_butt_cont{
+
+background-color: #fefefe;
+font-size: 14px;
+width: 100%;
+vertical-align: middle; 
+text-align: center;
+border-radius: 12px;
+color: #1C9CFC;
+border-style: none;
+margin-top: 22px;
+}
+
+#login_fac_butt_cont_butt{
+     cursor: pointer;
+     width:100%;
+    height: 58px;
+    font-family: quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 32px;
+    vertical-align: middle;
+    color:#fff;
+    border-style: none;
+     background-color: #4267B2;
+}
+#login_twt_butt_cont_butt{
+     cursor: pointer;
+     width:100%;
+    height: 58px;
+    font-family: quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 32px;
+    vertical-align: middle;
+    color:#fff;
+    border-style: none;
+     background-color: #1DA1F2;  
+}
+#login_git_butt_cont_butt{
+     cursor: pointer;
+     width:100%;
+    height: 58px;
+    font-family: quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius:32px;
+    vertical-align: middle;
+    color:#fff;
+    border-style: none;
+     background-color: #24292e;      
+}
+#login_em_butt_cont_butt{
+     cursor: pointer;
+     width:100%;
+    height: 58px;
+    font-family: quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 32px;
+    vertical-align: middle;
+    color:#fff;
+    border-style: none;
+     background-color: #bdbddb;       
+}
+#login_gog_butt_cont_butt{
+     cursor: pointer;
+     width:100%;
+    height: 58px;
+    font-family: quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 32px;
+    vertical-align: middle;
+    color:#fff;
+    border-style: none;
+     background: linear-gradient(267.55deg, #0E98FF -0.68%, #54B6FF -0.67%, #0E98FF 100%);
+}
+
+
+#login_gog_log_ico{
+    vertical-align: middle;
+    color: #E5E5E5;
+
+}
+
+#login_gog_butt_txt{
+font-weight: bold;
+
+vertical-align: middle;
+margin-left: 12px;
+color: #1C9CFC;
+}
+#login_or_cont_hr{
+    width: 100%;
+    height: 2px;
+    
+    margin-top: 32px;
+    background-color: #f2f2f2;
+}
+#login_or_cont{
+font-weight:bold;
+text-align: center;
+display: flex;
+border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+margin-top: -15px;
+margin-bottom: 20px;
+}
+#login_or_cont_txt{
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fefefe;    
+}
+
+#app_login_alrt_cont{
+    margin-top:10px;
+}
